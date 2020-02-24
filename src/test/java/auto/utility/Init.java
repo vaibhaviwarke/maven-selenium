@@ -30,7 +30,7 @@ public class Init extends DriverFactory {
         driver = getDriver();
         driver.get(URL);
         driver.manage().timeouts().implicitlyWait(IMPLICIT_TIME, SECONDS);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
     }
 
     /**
