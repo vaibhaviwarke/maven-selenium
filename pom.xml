@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>auto</groupId>
-    <artifactId>JWAF</artifactId>
+    <artifactId>Selenium Tests</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>JWAF</name>
+    <name>Selenium Tests</name>
     <url>http://maven.apache.org</url>
 
     <properties>
-        <chromedriver>${project.basedir}/drivers/chromedriver</chromedriver>
+        <chromedriver>/usr/bin/chromedriver</chromedriver>
         <browser>chrome</browser>
         <!-- <firefoxdriver>${project.basedir}/drivers/geckodriver.exe</firefoxdriver> -->
     </properties>
